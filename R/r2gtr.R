@@ -1,8 +1,10 @@
-r2gtr <- function(hr,file="cluster.gtr",distance="euclidean",dec=".",digits=5){
+r2gtr <- function(hr,file="cluster.gtr",distance=hr$dist.method,dec=".",
+                  digits=5)
+{
 #-------------------------------------------------------
 #
 #  Created       : 20/11/02	
-#  Last Modified : Time-stamp: <2003-07-22 16:52:45 lucas>
+#  Last Modified : Time-stamp: <2005-04-05 16:06:45 lucas>
 #
 #  Description   : Write hclust object to gtr atr
 #                  files (Xcluster or Cluster output).
@@ -60,7 +62,9 @@ r2gtr <- function(hr,file="cluster.gtr",distance="euclidean",dec=".",digits=5){
 #-----------------------------------
 # Cosmetic modifications for r2atr
 #-----------------------------------
-r2atr <- function(hc,file="cluster.atr",distance="euclidean",dec=".",digits=5){
+r2atr <- function(hc,file="cluster.atr",distance=hc$dist.method,dec=".",
+                  digits=5)
+{
 
 
 
@@ -107,4 +111,5 @@ r2atr <- function(hc,file="cluster.atr",distance="euclidean",dec=".",digits=5){
   write.table(data,file=file,row.name=FALSE,col.names=FALSE,quote=FALSE,sep='\t')
 
 }
+
 
