@@ -7,3 +7,5 @@ Maintainer: Antoine Lucas <antoinelucas@libertysurf.fr>
 Description: Tools for export and import Tree and Cluster to other programs
 License: GPL
 URL: http://genopole.toulouse.inra.fr/~lucas/R
+ReleaseLevel: devel
+
