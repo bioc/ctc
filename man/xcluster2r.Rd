@@ -3,7 +3,8 @@
 \title{Importing Xcluster/Cluster output}
 \description{Converting Xcluster/Cluster output (.gtr or .atr) to R hclust file}
 \usage{
-xcluster2r(file,distance="euclidean",labels=FALSE,fast=FALSE,clean=FALSE,dec='.')
+xcluster2r(file,distance="euclidean",labels=FALSE,fast=FALSE,clean=FALSE,
+           dec='.')
 }
 
 \arguments{
@@ -63,10 +64,9 @@ r2xcluster(m)
 #
 #system('Xcluster -f xcluster.txt -e 0 -p 0 -s 0 -l 0')
 #h <- xcluster2r('xcluster.gtr')
-#library(mva)
 #plot(h,hang=-1)
 }
 \keyword{file}
 
-\author{Antoine Lucas, \url{http://genopole.toulouse.inra.fr/~lucas/R}}
-\seealso{\code{\link{xcluster}}, \code{\link{r2xcluster}}, \code{\link[mva]{hclust}}}
+\author{Antoine Lucas, \url{http://antoinelucas.free.fr/ctc}}
+\seealso{\code{\link{xcluster}}, \code{\link{r2xcluster}}, \code{\link[stats]{hclust}}, \code{\link[amap]{hcluster}}}

@@ -2,9 +2,10 @@
 \alias{xcluster}
 \title{Hierarchical clustering}
 \description{Performs a hierarchical cluster analysis on a set of
-     dissimilarities.}
+     dissimilarities (this function launch an external program: Xcluster).}
 \usage{
-xcluster(data,distance="euclidean",clean=FALSE,tmp.in="tmp.txt",tmp.out="tmp.gtr")
+xcluster(data,distance="euclidean",clean=FALSE,tmp.in="tmp.txt",
+         tmp.out="tmp.gtr")
 }
 
 \arguments{
@@ -13,11 +14,12 @@ xcluster(data,distance="euclidean",clean=FALSE,tmp.in="tmp.txt",tmp.out="tmp.gtr
     \code{"euclidean"}, \code{"pearson"} or \code{"notcenteredpearson"}.
     Any unambiguous substring can be given.}
     \item{clean}{a logical value indicating whether you want the true
-    distances (\code{clean=FALSE}), or you want a clean dendogramme}
+    distances (\code{clean=FALSE}), or you want a clean dendogramme (see
+  details below).}
     \item{tmp.in, tmp.out}{temporary files for Xcluster}
 }
 
-\details{
+\details{  
   Available distance measures are (written for two vectors \eqn{x} and
   \eqn{y}): 
   \itemize{
@@ -108,10 +110,9 @@ m <- floor(10*m)/10                #just one digits
 #
 #h <- xcluster(m)
 #
-#library(mva)
 #plot(h) 
 }
 \keyword{cluster}
 
-\author{Antoine Lucas, \url{http://genopole.toulouse.inra.fr/~lucas/R}}
-\seealso{\code{\link{r2xcluster}}, \code{\link{xcluster2r}},\code{\link[mva]{hclust}}}
+\author{Antoine Lucas, \url{http://antoinelucas.free.fr/ctc}}
+\seealso{\code{\link{r2xcluster}}, \code{\link{xcluster2r}},\code{\link[stats]{hclust}}, \code{\link[amap]{hcluster}}}

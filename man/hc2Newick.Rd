@@ -9,7 +9,7 @@
 }
 \arguments{
   \item{hc}{a \code{hclust} object (as returned by the function \code{hclust}
-    in the package \code{mva})}
+    in the package \code{stats})}
   \item{flat}{a boolean (see section value).}
 }
 \value{

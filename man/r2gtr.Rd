@@ -8,8 +8,8 @@
   Visualisation of cluster can be
   done with tools like treeview}
 \usage{
-r2gtr(hr,file="cluster.gtr",distance="euclidean",dec='.',digits=5)
-r2atr(hc,file="cluster.atr",distance="euclidean",dec='.',digits=5)
+r2gtr(hr,file="cluster.gtr",distance=hr$dist.method,dec='.',digits=5)
+r2atr(hc,file="cluster.atr",distance=hc$dist.method,dec='.',digits=5)
 r2cdt(hr,hc,data,labels=FALSE,description=FALSE,file="cluster.cdt",dec='.')
 }
 
@@ -35,7 +35,7 @@ m[9:16,3] <- 3 ; m[17:24,] <- 3    #create 3 groups
 m <- m+rnorm(24*3,0,0.5)           #add noise
 m <- floor(10*m)/10                #just one digits
 
-library(mva)
+# use library stats
 # Cluster columns
 hc <- hclust(dist(t(m)))
 # Cluster rows
@@ -49,5 +49,5 @@ r2cdt(hr,hc,m ,file="cluster.cdt")
 }
 \keyword{cluster}
 
-\author{Antoine Lucas, \url{http://genopole.toulouse.inra.fr/~lucas/R}}
-\seealso{\code{\link{r2xcluster}}, \code{\link{xcluster2r}},\code{\link[mva]{hclust}}}
+\author{Antoine Lucas, \url{http://antoinelucas.free.fr/ctc}}
+\seealso{\code{\link{r2xcluster}}, \code{\link{xcluster2r}},\code{\link[stats]{hclust}},\code{\link[amap]{hcluster}}}
