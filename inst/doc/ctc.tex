@@ -1,0 +1,54 @@
+\documentclass{article}
+
+
+\title{\bf Cluster and Tree Conversion R package}
+
+\author{Antoine Lucas}
+
+\begin{document}
+
+
+\maketitle
+
+\begin{center}
+lucas.antoine@toulouse.inra.fr
+\end{center}
+
+\section{Overview}
+
+The {\tt CTC} package provide several functions for 
+conversion. Specially to export and import data from
+Xcluster or Cluster software (very used for Gene's expression
+analysis).
+
+\section{Aim} 
+
+\begin{itemize}
+\item To explore clusters made by Xcluster and Cluster . 
+
+\item To cluster data with Xcluster (it require very low memory usage) and analyze the results with R. Warning: results are not exactly the same
+as hclust results with R. 
+\end{itemize}              
+       
+\section{List of functions}
+
+\begin{description}
+\item[hc2Newick] Convert hclust objects to Newick format files
+\item[r2xcluster] Write to Xcluster file format 
+ \item[r2cluster] Write to Cluster file format 
+\item[xcluster] Hierarchical clustering (need xcluster tool  by Gavin Sherlock) 
+\item[xcluster2r] Importing Xcluster/Cluster output 
+\end{description}                 
+    
+\section{See Also}
+\begin{description}
+\item[xcluster]
+The program  by Gavin Scherlock\footnote{http://genome-www.stanford.edu/\~\/sherlock/cluster.html} 
+ \item[Cluster]
+ The program  by Michael Eisen\footnote{http://rana.lbl.gov/EisenSoftware.htm} 
+\end{description}                 
+
+
+
+
+\end{document}

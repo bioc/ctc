@@ -1,0 +1,6 @@
+hc2Newick               Convert hclust objects to Newick format files
+r2cluster               Write to Cluster file format
+r2gtr                   Write to gtr, atr, cdt file format
+r2xcluster              Write to Xcluster file format
+xcluster                Hierarchical clustering
+xcluster2r              Importing Xcluster/Cluster output

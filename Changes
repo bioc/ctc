@@ -1,0 +1,21 @@
+22/07/2003: 1.2.3
+  * bug fixed with option dec=',' for r2gtr, r2cdt, r2cluster
+  * option colname="ACC" with r2cluster
+
+06/02/2003: 1.2.2
+  * Major bug fixed on function r2cdt
+  * 2 more parameters on function r2cdt
+  * Bug fixed on function r2gtr
+
+15/01/2003: 1.2.1
+  * Bug fixed on functions r2gtr and r2cluster
+  * Add links on help files.
+
+22/11/2002: 1.2
+  * 3 new functions: r2gtr, r2atr, r2cdt
+  * Option dec='.' for functions r2cluster, xcluster2r.
+
+12/11/2002: 1.1-1
+  * Option description=Boolean in r2xcluster and r2cluster
+  * Fixed some minor bugs (_ remplaced by <- for R 1.6)
+
