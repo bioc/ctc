@@ -1,4 +1,4 @@
-hc2Newick <- function(hc, flat=T) {
+hc2Newick <- function(hc, flat=TRUE) {
 
   dist <- 0
   if (is.null(hc$labels))
