@@ -34,10 +34,12 @@ m <- floor(10*m)/10                #just one digits
 
 r2xcluster(m)
 
-system('Xcluster -f xcluster.txt -e 0 -p 0 -s 0 -l 0')
-h <- xcluster2r('xcluster.gtr')
-library(mva)
-plot(h,hang=-1)
+# And once you have Xcluster program:
+
+#system('Xcluster -f xcluster.txt -e 0 -p 0 -s 0 -l 0')
+#h <- xcluster2r('xcluster.gtr')
+#library(mva)
+#plot(h,hang=-1)
 }
 \keyword{file}
 

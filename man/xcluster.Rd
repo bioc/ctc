@@ -103,10 +103,13 @@ m[9:16,3] <- 3 ; m[17:24,] <- 3    #create 3 groups
 m <- m+rnorm(24*3,0,0.5)           #add noise
 m <- floor(10*m)/10                #just one digits
 
-h <- xcluster(m)
 
-library(mva)
-plot(h) 
+# And once you have Xcluster program:
+#
+#h <- xcluster(m)
+#
+#library(mva)
+#plot(h) 
 }
 \keyword{cluster}
 

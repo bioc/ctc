@@ -1,3 +1,10 @@
+16/10/2003: 1.2.5
+  * Bug fixed for R CMD check. (Examples using Xcluster program cannot
+    be executed).
+
+05/09/2003: 1.2.4
+  * New release only for Windows. (Just 1.2.3 correctly compiled).
+
 22/07/2003: 1.2.3
   * bug fixed with option dec=',' for r2gtr, r2cdt, r2cluster
   * option colname="ACC" with r2cluster
