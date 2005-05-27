@@ -1,3 +1,9 @@
+27/05/2005
+  * new function read.eisen
+
+08/12/2004: 1.2.8
+  * minor changes on doc.
+
 16/10/2003: 1.2.5
   * Bug fixed for R CMD check. (Examples using Xcluster program cannot
     be executed).
