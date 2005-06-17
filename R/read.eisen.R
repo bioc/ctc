@@ -4,8 +4,7 @@ read.eisen <- function(file,sep="\t",dec=".",format.check=TRUE) {
 
         rownames(f)<-f[,1]
         if (format.check & colnames(f)[1] %in% c("UNIQID","YORF","MCLID","CLID","ACC")) {
-          stop(paste("This is not a proper Eisen-formatted file
-('",file,"').",sep=""))
+          stop(paste("This is not a proper Eisen-formatted file ('",file,"').",sep=""))
         }
 
         if ("NAME"==colnames(f)[2]) {
