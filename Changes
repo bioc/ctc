@@ -1,3 +1,6 @@
+08/07/2005
+  * example ctc.php for a web-application.
+
 16/10/2003: 1.2.5
   * Bug fixed for R CMD check. (Examples using Xcluster program cannot
     be executed).
