@@ -20,8 +20,7 @@
 /*  Some globals variables */
 
 
-$R_BIN = "R";
-//$R_BIN = "/usr/local/bin/R";
+$R_BIN = "R";   // "/usr/bin/R";
 $MAX_FILE = 307200;  // 300 Ko
 /* End of personalization */
 ?>
