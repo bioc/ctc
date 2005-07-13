@@ -1,6 +1,6 @@
 Package: ctc
-Version: 1.2.8
-Date: 2003-22-07
+Version: 1.2.9
+Date: 2005-13-07
 Title: Cluster and Tree Conversion.
 Author: Antoine Lucas <antoinelucas[at]libertysurf.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
 Maintainer: Antoine Lucas <antoinelucas@libertysurf.fr>
