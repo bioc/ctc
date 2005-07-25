@@ -1,10 +1,11 @@
 Package: ctc
-Version: 1.2.9
-Date: 2005-13-07
+Version: 1.2.8
+Date: 2005-25-07
 Title: Cluster and Tree Conversion.
-Author: Antoine Lucas <antoinelucas[at]libertysurf.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
+Author: Antoine Lucas <antoinelucas@libertysurf.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
 Maintainer: Antoine Lucas <antoinelucas@libertysurf.fr>
 Description: Tools for export and import Tree and Cluster to other programs
 License: GPL
-URL: http://genopole.toulouse.inra.fr/~lucas/R
+URL: http://antoinelucas.free.fr/ctc
+
 
