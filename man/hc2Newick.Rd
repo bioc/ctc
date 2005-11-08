@@ -20,7 +20,15 @@
   is consituted of the elements \code{left}, \code{right} and \code{dist}.  
 }
 
+\examples{
+data(USArrests)
+h = hclust(dist(USArrests))
+write(hc2Newick(h),file='hclust.newick')
+}
+
+
 \author{
   Laurent (laurent@cbs.dtu.dk)
 }
 \keyword{manip}
+\keyword{cluster}
