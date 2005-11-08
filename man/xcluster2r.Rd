@@ -17,7 +17,8 @@ xcluster2r(file,distance="euclidean",labels=FALSE,fast=FALSE,clean=FALSE,
   \item{fast}{a logical value indicating whether we reorganize data
     like R (\code{Fast=FALSE}) or we let them like \emph{Xcluster/Cluster} did} 
   \item{clean}{a logical value indicating whether you want the true
-    distances (\code{clean=FALSE}), or you want a clean dendogramme}
+    distances (\code{clean=FALSE}), or you want a clean dendrogram (see
+  details below).}
   \item{dec}{the character used in the file for decimal points}
 }
 
@@ -68,5 +69,5 @@ r2xcluster(m)
 }
 \keyword{file}
 
-\author{Antoine Lucas, \url{http://antoinelucas.free.fr/ctc}}
+\author{Antoine Lucas, \url{http://mulcyber.toulouse.inra.fr/projects/amap/}}
 \seealso{\code{\link{xcluster}}, \code{\link{r2xcluster}}, \code{\link[stats]{hclust}}, \code{\link[amap]{hcluster}}}
