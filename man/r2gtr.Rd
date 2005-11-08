@@ -13,6 +13,12 @@ r2atr(hc,file="cluster.atr",distance=hc$dist.method,dec='.',digits=5)
 r2cdt(hr,hc,data,labels=FALSE,description=FALSE,file="cluster.cdt",dec='.')
 }
 
+
+\details{Function \code{\link{hclust2treeview}} compute hierarchical
+  clustering and export to all files at once.}
+
+
+
 \arguments{
   \item{file}{the path of the file}
   \item{data}{a matrix (or data frame) which provides the data to put into the file} 
