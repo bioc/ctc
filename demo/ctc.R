@@ -48,3 +48,8 @@ r2cdt(hr,hc,USArrests ,file="cluster.cdt")
 readline("Next")
 
 
+cat("\n------  Clustering and Export hclust objects to Freeview or Treeview
+visualization softwares  -------\n")
+
+hclust2treeview(USArrests,file="cluster.cdt")
+
