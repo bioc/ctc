@@ -1,10 +1,9 @@
 Package: ctc
-Version: 1.5.0
-Date: 2005-07-12
+Version: 1.5-1
+Date: 2005-11-16
 Title: Cluster and Tree Conversion.
 Author: Antoine Lucas <antoinelucas@libertysurf.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
 Maintainer: Antoine Lucas <antoinelucas@libertysurf.fr>
 Description: Tools for export and import classification trees and clusters to other programs
 License: GPL
 URL: http://antoinelucas.free.fr/ctc
-
