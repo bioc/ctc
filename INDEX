@@ -1,6 +1,9 @@
 hc2Newick               Convert hclust objects to Newick format files
+hclust2treeview         Hierarchical clustering and treeview export
 r2cluster               Write to Cluster file format
 r2gtr                   Write to gtr, atr, cdt file format
 r2xcluster              Write to Xcluster file format
+read.eisen              Read expression data from a file formatted for
+                        Eisen clustering
 xcluster                Hierarchical clustering
 xcluster2r              Importing Xcluster/Cluster output
