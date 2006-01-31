@@ -1,0 +1,3 @@
+
+export(hc2Newick,hclust2treeview,r2cdt,r2atr,r2gtr,r2cluster,r2xcluster,
+       read.eisen,xcluster,xcluster2r)
