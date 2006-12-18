@@ -1,6 +1,7 @@
 Package: ctc
 Version: 1.9.0
 Date: 2005-11-16
+Depends: amap
 Title: Cluster and Tree Conversion.
 Author: Antoine Lucas <antoinelucas@libertysurf.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
 biocViews: Microarray, Clustering, Classification, DataImport, Visualization

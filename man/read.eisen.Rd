@@ -54,6 +54,9 @@ Cluster analysis and display of genome-wide expression patterns.
 De Hoon M.J.L., S. Imoto, J. Nolan, and S. Miyano. Open source 
 clustering software.   Bioinformatics *20* (9): 1453--1454 (2004).
 
+Antoine Lucas and Sylvain Jasson, \emph{Using amap and ctc Packages
+    for Huge Clustering}, R News, 2006, vol 6, issue 5 pages 58-60.
+
 }
 
 \keyword{cluster}

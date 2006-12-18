@@ -50,6 +50,12 @@ about
 \emph{Cluster}: \url{http://rana.lbl.gov/EisenSoftware.htm}
 }
 
+\references{
+  Antoine Lucas and Sylvain Jasson, \emph{Using amap and ctc Packages
+    for Huge Clustering}, R News, 2006, vol 6, issue 5 pages 58-60.
+  }
+
+
 \examples{
 #    Create data
 .Random.seed <- c(1,  416884367 ,1051235439)

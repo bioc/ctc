@@ -55,5 +55,11 @@ r2cdt(hr,hc,m ,file="cluster.cdt")
 }
 \keyword{cluster}
 
+\references{
+  Antoine Lucas and Sylvain Jasson, \emph{Using amap and ctc Packages
+    for Huge Clustering}, R News, 2006, vol 6, issue 5 pages 58-60.
+  }
+
+
 \author{Antoine Lucas, \url{http://antoinelucas.free.fr/ctc}}
 \seealso{\code{\link{r2xcluster}}, \code{\link{xcluster2r}},\code{\link[stats]{hclust}},\code{\link[amap]{hcluster}}}

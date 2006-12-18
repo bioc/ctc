@@ -95,6 +95,12 @@ about
 \emph{Xcluster}: \url{http://genome-www.stanford.edu/~sherlock/cluster.html}
 }
 
+\references{
+  Antoine Lucas and Sylvain Jasson, \emph{Using amap and ctc Packages
+    for Huge Clustering}, R News, 2006, vol 6, issue 5 pages 58-60.
+  }
+
+
 \examples{
 #    Create data
 .Random.seed <- c(1,  416884367 ,1051235439)
