@@ -1,5 +1,5 @@
 Package: ctc
-Version: 1.10.0
+Version: 1.11.0
 Date: 2005-11-16
 Depends: amap
 Title: Cluster and Tree Conversion.
