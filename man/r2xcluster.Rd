@@ -52,7 +52,7 @@ gbk04   Gene4           1       0.4     1       1
 
 \examples{
 ##    Create data
-.Random.seed <- c(1,  416884367 ,1051235439)
+set.seed(1)
 m <- matrix(rep(1,3*24),ncol=3)  
 m[9:16,3] <- 3 ; m[17:24,] <- 3    #create 3 groups
 m <- m+rnorm(24*3,0,0.5)           #add noise

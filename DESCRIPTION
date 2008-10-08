@@ -3,9 +3,9 @@ Version: 1.15.0
 Date: 2005-11-16
 Depends: amap
 Title: Cluster and Tree Conversion.
-Author: Antoine Lucas <antoinelucas@free.fr>, Laurent Gautier <laurent@cbs.dtu.dk>
+Author: Antoine Lucas <antoinelucas@gmail.com>, Laurent Gautier <laurent@cbs.dtu.dk>
 biocViews: Microarray, Clustering, Classification, DataImport, Visualization
-Maintainer: Antoine Lucas <antoinelucas@free.fr>
+Maintainer: Antoine Lucas <antoinelucas@gmail.com>
 Description: Tools for export and import classification trees and clusters to other programs
 License: GPL
 URL: http://antoinelucas.free.fr/ctc

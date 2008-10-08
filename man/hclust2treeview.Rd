@@ -15,7 +15,7 @@ hclust2treeview(x,file="cluster.cdt",method = "euclidean",link = "complete",keep
 
 \arguments{
  \item{x}{numeric matrix or a data frame or an object of class
-    \code{ExpressionSet}.}
+    "exprSet".}
   \item{file}{File name of export file.}
   \item{method}{the distance measure to be used. This must be one of
     \code{"euclidean"}, \code{"maximum"}, \code{"manhattan"},
@@ -37,6 +37,8 @@ hclust2treeview(x,file="cluster.cdt",method = "euclidean",link = "complete",keep
   clustering by rows, second: hierarchical clustering by columns
 }
 
+
+
 \author{Antoine Lucas, \url{http://mulcyber.toulouse.inra.fr/projects/amap/}}
 
 \seealso{\code{\link[stats]{hclust}}}
@@ -44,11 +46,19 @@ hclust2treeview(x,file="cluster.cdt",method = "euclidean",link = "complete",keep
 \references{
   Antoine Lucas and Sylvain Jasson, \emph{Using amap and ctc Packages
     for Huge Clustering}, R News, 2006, vol 6, issue 5 pages 58-60.
-}
+  }
+
 
 \examples{
+
 data(USArrests)
 hclust2treeview(USArrests,file="cluster.cdt")
+
 }
 
+
 \keyword{cluster}
+
+
+
+
