@@ -39,7 +39,7 @@ B     \tab  0   \tab     1\cr
 C     \tab   0.9   \tab  0.5\cr
 }
 
-Ie: a triangular in {\bf R}$^2$, the distance between A and B is larger
+Ie: a triangular in \bold{R}\eqn{^2}, the distance between A and B is larger
 than the distance between the group A,B and C (with euclidean distance).
 
 For that case it can be useful to use \code{clean=TRUE} and that mean
