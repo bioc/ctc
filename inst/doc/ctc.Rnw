@@ -9,6 +9,7 @@
 %\usepackage{a4wide}
 %\VignetteIndexEntry{Introduction to ctc}
 %\VignettePackage{ctc}
+\usepackage{url}
 
 \begin{document}
 
@@ -20,7 +21,7 @@
 
 {\tt Ctc} package provides several functions for 
 conversion. Specially to export and import data from
-Xcluster\footnote{http://genome-www.stanford.edu/\~\/sherlock/cluster.html} 
+Xcluster\footnote{\url{http://genome-www.stanford.edu/~sherlock/cluster.html}} 
  or Cluster\footnote{http://rana.lbl.gov/EisenSoftware.htm} 
  software (very used for Gene's expression
 analysis), and to export clusters to TreeView or Freeview visualization
