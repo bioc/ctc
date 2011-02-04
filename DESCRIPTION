@@ -1,5 +1,5 @@
 Package: ctc
-Version: 1.25.0
+Version: 1.25.1
 Date: 2005-11-16
 Depends: amap
 Title: Cluster and Tree Conversion.
@@ -7,5 +7,5 @@ Author: Antoine Lucas <antoinelucas@gmail.com>, Laurent Gautier <laurent@cbs.dtu
 biocViews: Microarray, Clustering, Classification, DataImport, Visualization
 Maintainer: Antoine Lucas <antoinelucas@gmail.com>
 Description: Tools for export and import classification trees and clusters to other programs
-License: GPL
+License: GPL-2
 URL: http://antoinelucas.free.fr/ctc
